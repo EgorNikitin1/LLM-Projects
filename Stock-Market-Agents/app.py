@@ -2,7 +2,7 @@ import streamlit as st
 from agents import run_agent_team
 
 st.set_page_config(
-        page_title="Stock Market Agents"
+    page_title="Stock Market Agents"
 )
 
 st.title('Stock Market Agents')

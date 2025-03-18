@@ -2,9 +2,9 @@ from phi.agent import Agent, RunResponse
 from phi.model.ollama import Ollama
 from phi.tools.googlesearch import GoogleSearch
 from phi.tools.yfinance import YFinanceTools
-from phi.utils.pprint import pprint_run_response
 
 from datetime import datetime, timedelta
+
 
 ## Create Agents
 
@@ -77,5 +77,3 @@ def run_agent_team(companies):
     "Ensure your response is accurate, comprehensive, and includes references to sources with publication dates.")
     response: RunResponse = agent_team.run(prompt)
     return response
-
-# print_run_response(run_agent_team(['NVDA', 'MSFT']), markdown=True)
