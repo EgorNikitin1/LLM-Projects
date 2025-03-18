@@ -1,0 +1,5 @@
+venv/
+.vscode/
+Sentiment-Analysis/nltk_data/
+Sentiment-Analysis/__pycache__/
+Stock-Market-Agents/__pycache__/
