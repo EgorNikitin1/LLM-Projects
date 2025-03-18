@@ -16,6 +16,12 @@ Welcome to the repository dedicated to projects based on large language models (
    * NLTK
    * Transformers - RoBERTa
    * Streamlit
+
+  ### How to run
+    Run streamlit app:
+    ```shell
+      streamlit run Sentiment-Analysis/app.py
+    ```
   
 - ## Stock Market Agents
 
@@ -28,3 +34,13 @@ Welcome to the repository dedicated to projects based on large language models (
    * Phidata
    * Ollama - llama3
    * Streamlit
+
+  ### How to run
+    Install Ollama and run command
+    ```shell
+      ollama run llama3.1
+    ```
+    Run streamlit app:
+    ```shell
+      streamlit run Stock-Market-Agents/app.py
+    ```
