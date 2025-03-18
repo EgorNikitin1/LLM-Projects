@@ -8,13 +8,21 @@
    * Python
    * NumPy
    * Pandas
-   * MatPlotLib
+   * Matplotlib
    * Seaborn
    * Scipy
    * NLTK
-   * Transformers
-   * FastAPI
+   * Transformers - RoBERTa
+   * Streamlit
   
 - ## Stock Market Agents
 
+  The project demonstrates how you can create AI agent workflows for stock market sentiment analysis in Python using the open source Phidata agentic AI library in addition to the llama3 model from Ollama. This workflow includes pulling data from the web via automated Google search and pulling financial data via the yfinance python library.
   
+  ### Tech
+   * Python
+   * GoogleSearch
+   * YFinanceTools
+   * Phidata
+   * Ollama - llama3
+   * Streamlit
