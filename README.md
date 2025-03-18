@@ -36,7 +36,7 @@ Welcome to the repository dedicated to projects based on large language models (
    * Streamlit
 
   ### How to run
-    Install Ollama and run command
+    Install [Ollama](https://ollama.com/) and run command:
     ```shell
       ollama run llama3.1
     ```
